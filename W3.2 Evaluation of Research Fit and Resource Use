@@ -1,0 +1,17 @@
+1.1	The instances of entities will be sampled from the site through random sampling from the reviews(instances) 2019 and onwards covering the COVID-19 period as well as the  most popular airports and airlines. Selecting this time span does not necessarily have a high bias as we want to take inferences about how COVID-19 changed the traveler behavior.
+1.2	Sample size?
+1.3	Technically feasible sample?
+
+2.1 Data is clear and transparent that makes it available to calculate constructs of interest
+
+3.1 The type of data provided by the website is panel data it is multi-dimensional over time. This type of data is sufficient to answer the RQ, and provides a ground for future infrances.
+
+3.2 Do not have information yet on what is needed to transform the data. But we aim at storing the data in the type of CSV file or Google Drive, and preferably in the structure of rows and columns, and graphics to visualize the data better.
+
+4.1 There are no foreseen development costs to scrape the data from the website
+
+4.2 No cost foreseen to run the scraper
+
+4.3 No foreseen cost to maintain the extraction software
+
+4.4 To answer the desired RQ novel data is seen to be a better fit. 
