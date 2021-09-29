@@ -8,7 +8,7 @@ Research question:
 ## Motivation
 The Covid-19 pandemic has heavily affected the airline industry. However, as COVID-19 measures are slowly being alleviated, demand for airplane flights is expected to rise again. For example, it could be interesting to research what airlines have been able to adapt most effectively to the pandemic. Therefore, it can be beneficial to gather data about the airline industry.
 	
-	When choosing an airline, a choice often has to be made between price and service. Where one wants to fly cheaply, another finds service more important. But it is expected that trust is also a criteria that many passengers take into consideration since everyone wants that the airline brings you safely from one place to another. That is why we expect that reviews, for example, are very important in this sector and useful to analyse. 	
+	When choosing an airline, a choice often has to be made between price and service. Where one wants to fly cheaply, another finds service more important. But it is expected that trust is also a criteria that many passengers take into consideration since everyone wants that the airline brings you safely from one place to another. That is why we expect that reviews, for example, are very important in this sector and useful to analyse. 
 
 
 
