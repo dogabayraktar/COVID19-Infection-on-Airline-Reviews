@@ -1,6 +1,6 @@
 # COVID19-Infection-on-Airline-Reviews
 # "How Covid-19 infected the reviews"
-# A study on the impact of Covid-19 infections on the AirBnb market in Amsterdam
+
 
 
 Research question:
