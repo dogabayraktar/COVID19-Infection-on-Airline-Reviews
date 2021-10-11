@@ -6,7 +6,7 @@ Review Rating;Review Writer;Title;Date Published;Verify Status;Country;Aircraft;
 5;N Birley;"""staff at the airport were terrible""";30-9-2021;Trip Verified;United States;n/a;Belgrade to Dublin via Amsterdam;Business;Economy Class;sep-21;3;2;5;4;n/a;1;1;yes
 10;N Prokuski;"""Delightful experience!""";27-9-2021;Not Verified;United States;n/a;Chicago to Amsterdam;Couple Leisure;First Class;sep-21;5;5;5;5;4;4;5;yes
 3;S Derzeny ;"""took my small Samsonite hand luggage from me""";11-9-2021;Trip Verified;United States;B737-800 and a smaller one;Budapest to Aberdeen via Amsterdam;Solo Leisure;Economy Class;sep-21;3;5;5;3;n/a;n/a;1;no
-1;Fabiana Evans;"""worst flight of our lives""";10-9-2021;Trip Verified;United States;n/a;Atlanta to Amsterdã;Couple Leisure;Economy Class;sep-21;1;1;1;1;1;n/a;1;no
+1;Fabiana Evans;"""worst flight of our lives""";10-9-2021;Trip Verified;United States;n/a;Atlanta to AmsterdÃ£;Couple Leisure;Economy Class;sep-21;1;1;1;1;1;n/a;1;no
 10;J Suta;"""experience was very positive""";4-9-2021;Not Verified;United States;n/a;Split to Bordeaux via Amsterdam;Solo Leisure;Economy Class;sep-21;5;5;5;5;n/a;n/a;5;yes
 1;C Carter;"""seats were tiny""";2-9-2021;Trip Verified;United States;n/a;Amsterdam to Kiev;Solo Leisure;Economy Class;July 2021;1;1;2;1;2;1;2;no
 1;Farah Abdul Hafeez;"""lied to by a KLM representative who I put my trust in""";1-9-2021;Trip Verified;United Arab Emirates;n/a;Dubai to Calgary via Amsterdam;Solo Leisure;Economy Class;aug-21;1;3;1;n/a;n/a;n/a;1;no
@@ -44,13 +44,13 @@ Review Rating;Review Writer;Title;Date Published;Verify Status;Country;Aircraft;
 2;Andrea Fonfara;"""Loyalty doesn't always pay off""";12-2-2021;Trip Verified;Namibia;n/a;Alicante to Amsterdam via Guatemala;Solo Leisure;Economy Class;January 2021;3;3;3;3;2;n/a;2;no
 2;P Love;"""I would not fly with KLM in the future""";20-1-2021;Trip Verified;Namibia;n/a;Amsterdam to New York;Family Leisure;Economy Class;January 2021;1;2;3;3;n/a;3;2;no
 10;Leo Duse;"""Crew very friendly and helpful""";18-1-2021;Trip Verified;Namibia;n/a;Milan to Bangkok via Amsterdam;Solo Leisure;Economy Class;January 2021;5;5;5;3;n/a;n/a;5;yes
-7;Denis Samofalov;"""Both legs of my flight were pleasant""";17-1-2021;Trip Verified;Namibia;Boeing 777-300ER /  777-200;Manila to San José via Amsterdam;Family Leisure;Economy Class;dec-20;2;4;5;5;3;n/a;5;yes
+7;Denis Samofalov;"""Both legs of my flight were pleasant""";17-1-2021;Trip Verified;Namibia;Boeing 777-300ER /  777-200;Manila to San JosÃ© via Amsterdam;Family Leisure;Economy Class;dec-20;2;4;5;5;3;n/a;5;yes
 10;T Thompson;"""their service and hospitality was truly amazing""";12-1-2021;Trip Verified;Namibia;Boeing 747-10 Dreamliner;Houston, IAH to Amsterdam, Schiphol via Atlanta, ATL;Solo Leisure;Economy Class;January 2021;5;5;5;5;5;5;5;yes
-3;H Shaw;"""This airline was like flying with a pauper""";6-1-2021;Trip Verified;Namibia;Boeing 777;São Paulo to Amsterdam;Solo Leisure;Economy Class;January 2021;3;1;2;1;1;1;1;no
+3;H Shaw;"""This airline was like flying with a pauper""";6-1-2021;Trip Verified;Namibia;Boeing 777;SÃ£o Paulo to Amsterdam;Solo Leisure;Economy Class;January 2021;3;1;2;1;1;1;1;no
 1;Jakob Obenaus;"""Worst experience with an airline""";29-12-2020;Trip Verified;Namibia;Boeing 787;Stuttgart to Hong Kong via Amsterdam;Solo Leisure;Business Class;sep-20;1;3;3;3;3;1;1;no
 1;R Saksa;"""Arrogant and noisy staff""";22-12-2020;Trip Verified;Namibia;Boeing 737;Helsinki to Madrid via Amsterdam;Solo Leisure;Economy Class;dec-20;1;1;1;1;1;1;5;no
 9;N Chan;"""Service was courteous throughout""";14-12-2020;Trip Verified;Singapore;n/a;Singapore to Amsterdam;Solo Leisure;Economy Class;dec-20;3;4;5;4;4;3;4;yes
-1;Christian Kura;"""KLM only refunded me 22.00 dollar""";8-12-2020;Trip Verified;Singapore;n/a;Detroit to Münich via Paris;Family Leisure;Economy Class;dec-20;1;n/a;n/a;n/a;n/a;n/a;n/a;no
+1;Christian Kura;"""KLM only refunded me 22.00 dollar""";8-12-2020;Trip Verified;Singapore;n/a;Detroit to MÃ¼nich via Paris;Family Leisure;Economy Class;dec-20;1;n/a;n/a;n/a;n/a;n/a;n/a;no
 10;Alex Martino;"""I had an excellent experience with KLM""";24-11-2020;Trip Verified;Singapore;Boeing 777-300;Amsterdam to Taipei;Couple Leisure;Business Class;nov-20;5;5;5;3;3;n/a;5;yes
 1;John McBride;KLM Royal Dutch Airlines customer review;20-11-2020;Not Verified;Singapore;n/a;Budapest to Washington via Amsterdam;Family Leisure;Economy Class;sep-20;1;n/a;n/a;n/a;n/a;n/a;n/a;no
 1;J Meares;"""blame COVID-19 for everything!""";26-10-2020;Trip Verified;Singapore;n/a;Atlanta to Amsterdam;Business;Business Class;June 2020;1;1;1;1;n/a;n/a;1;no
@@ -98,7 +98,7 @@ Review Rating;Review Writer;Title;Date Published;Verify Status;Country;Aircraft;
 5;A Berlov;"""There is almost no food""";19-3-2020;Trip Verified;Spain;Boeing 737;Moscow to Amsterdam;Solo Leisure;Economy Class;October 2019;2;1;2;1;n/a;n/a;2;no
 7;A Berlov;"""Thin seats, not soft enough""";19-3-2020;Trip Verified;Spain;Boeing 777;Kuala Lumpur to Jakarta;Solo Leisure;Economy Class;March 2020;3;3;4;3;3;1;2;yes
 1;Sophia Andersson;"""they couldn't rebook this flight""";18-3-2020;Trip Verified;Spain;n/a;Bergen to Denpasar via Amsterdam;Couple Leisure;Economy Class;March 2020;1;n/a;n/a;n/a;n/a;n/a;1;no
-1;Michael Rück;"""cancelled without decent reason""";12-3-2020;Not Verified;Spain;n/a;Lima to Zürich via Amsterdam;Solo Leisure;Economy Class;January 2020;1;2;1;n/a;n/a;n/a;1;no
+1;Michael RÃ¼ck;"""cancelled without decent reason""";12-3-2020;Not Verified;Spain;n/a;Lima to ZÃ¼rich via Amsterdam;Solo Leisure;Economy Class;January 2020;1;2;1;n/a;n/a;n/a;1;no
 1;Lillian Halasz;"""I won't fly with them again""";9-3-2020;Trip Verified;Brazil;n/a;Budapest to Rio de Janeiro via Amsterdam;Solo Leisure;Economy Class;February 2020;1;2;5;4;3;n/a;1;no
 8;Fred Hodgson;"""my first choice for now""";8-3-2020;Trip Verified;Brazil;Airbus;Manchester to Entebbe via Amsterdam;Couple Leisure;Economy Class;February 2020;3;3;4;4;n/a;n/a;4;yes
 1;Maksim Kovalerchik;"""charged $60 for baggage""";6-3-2020;Trip Verified;Brazil;Boeing 747-400 ;Amsterdam to Riga;Solo Leisure;Economy Class;March 2020;1;n/a;n/a;n/a;n/a;n/a;1;no
@@ -116,7 +116,7 @@ Review Rating;Review Writer;Title;Date Published;Verify Status;Country;Aircraft;
 8;M Mahzin;"""Fare was pretty affordable""";15-2-2020;Trip Verified;United States;Boeing 737;Copenhagen to Amsterdam;Business;Economy Class;June 2019;4;4;4;3;n/a;n/a;4;yes
 7;A Mahzin;"""staff were friendly""";15-2-2020;Trip Verified;United States;n/a;Amsterdam to Helsinki;Business;Economy Class;June 2019;4;3;3;4;n/a;n/a;3;yes
 1;Miguel Segura;"""Such a disappointment""";13-2-2020;Trip Verified;United States;n/a;Barcelona to Amsterdam;Business;Economy Class;February 2020;1;3;2;1;n/a;n/a;2;no
-9;ØW Wiig;"""KLM is my preferred airline""";12-2-2020;Trip Verified;United States;Boeing 777-300;Torp Sandefjord to Singapore via Amsterdam;Business;Premium Economy;February 2020;4;4;5;5;5;3;5;yes
+9;Ã˜W Wiig;"""KLM is my preferred airline""";12-2-2020;Trip Verified;United States;Boeing 777-300;Torp Sandefjord to Singapore via Amsterdam;Business;Premium Economy;February 2020;4;4;5;5;5;3;5;yes
 1;Glete Grady;"""treating customers with such indifference""";30-1-2020;Trip Verified;United States;n/a;Bristol to Sao Paulo via Amsterdam;Couple Leisure;Economy Class;January 2020;1;1;3;1;3;3;3;no
 2;David Houlihan;"""total waste of money""";24-1-2020;Trip Verified;United States;Boeing 737;Dublin to Amsterdam;Solo Leisure;Business Class;dec-19;2;1;3;2;n/a;n/a;2;no
 9;Jonathan Rodden;"""good flight and service""";23-1-2020;Trip Verified;United Kingdom;Embraer 175;Amsterdam to Belfast;Solo Leisure;Business Class;January 2020;5;5;5;4;n/a;n/a;4;yes
@@ -152,7 +152,7 @@ Review Rating;Review Writer;Title;Date Published;Verify Status;Country;Aircraft;
 1;Michael Webb;"""requesting a 50% refund""";25-10-2019;Trip Verified;United States;Boeing 777;Houston to Vienna via Amsterdam;Business;Business Class;October 2019;1;3;1;1;3;1;1;no
 10;Rachel Barclay;"""Definitely fly with KLM again""";23-10-2019;Not Verified;United States;n/a;Athens to Aberdeen via Amsterdam;Solo Leisure;Economy Class;October 2019;4;5;5;5;3;5;5;yes
 5;T Veane;"""A mess for a weekend trip""";22-10-2019;Trip Verified;United States;Boeing 737-800 / 737-900;Zurich to Bucharest via Amsterdam;Solo Leisure;Economy Class;October 2019;4;4;5;3;n/a;n/a;2;yes
-1;Sudesh Vermani;"""our luggage didn’t come""";20-10-2019;Not Verified;United States;n/a;Toronto to Delhi via Amsterdam;Family Leisure;Economy Class;October 2019;1;1;2;2;2;n/a;1;no
+1;Sudesh Vermani;"""our luggage didnÂ’t come""";20-10-2019;Not Verified;United States;n/a;Toronto to Delhi via Amsterdam;Family Leisure;Economy Class;October 2019;1;1;2;2;2;n/a;1;no
 1;Shabina Afridi;"""awful overall experience""";19-10-2019;Trip Verified;United States;n/a;Amsterdam to Atlanta;Business;Economy Class;October 2019;1;1;3;1;1;1;1;no
 1;S Heikki ;"""pretty messy in case of failures""";17-10-2019;Trip Verified;United States;Boeing 737, Embraer 195, Embraer 190;Helsinki to Dublin via Amsterdam;Business;Economy Class;apr-19;3;3;3;3;n/a;n/a;1;no
 1;Long Dang;"""first and also the last time""";11-10-2019;Trip Verified;United States;n/a;Houston to Venice via Amsterdam;Couple Leisure;Economy Class;October 2019;2;1;2;1;1;1;2;no
@@ -165,7 +165,7 @@ Review Rating;Review Writer;Title;Date Published;Verify Status;Country;Aircraft;
 1;Moein Jahanbani;"""lose the connection to Copenhagen""";5-10-2019;Trip Verified;Czech Republic;n/a;Valencia to Copenhagen via Amsterdam;Family Leisure;Economy Class;May 2019;1;1;1;1;1;1;1;no
 2;R Warren;"""made no effort to get me home""";5-10-2019;Not Verified;Czech Republic;n/a;Zurich to Norwich via Amsterdam;Business;Economy Class;October 2019;1;3;3;n/a;n/a;n/a;2;no
 7;B Jiminez;"""Food was good""";3-10-2019;Trip Verified;Czech Republic;A330;Fortaleza to London Heathrow via Amsterdam;Solo Leisure;Business Class;October 2019;4;2;4;4;5;n/a;4;yes
-10;Silvana Marcon;"""delighted by the kindness""";2-10-2019;Trip Verified;Czech Republic;Boeing 777;Amsterdam to São Paulo;Couple Leisure;Business Class;sep-19;5;5;5;5;5;n/a;5;yes
+10;Silvana Marcon;"""delighted by the kindness""";2-10-2019;Trip Verified;Czech Republic;Boeing 777;Amsterdam to SÃ£o Paulo;Couple Leisure;Business Class;sep-19;5;5;5;5;5;n/a;5;yes
 10;Cyrus Maram;"""Love you KLM""";30-9-2019;Not Verified;Czech Republic;Boeing 737-800;Houston to Barcelona via Amsterdam;Family Leisure;Premium Economy;March 2019;5;5;5;5;5;5;5;yes
 5;Elaine Loh;"""Cramped with little leg room""";28-9-2019;Trip Verified;Czech Republic;Boeing 737;Paris to Amsterdam;Business;Economy Class;sep-19;2;2;3;2;n/a;n/a;3;no
 2;E Haledi;KLM Royal Dutch Airlines customer review;26-9-2019;Trip Verified;Czech Republic;n/a;Oslo to Luxembourg via Amsterdam;Business;Economy Class;sep-19;1;3;1;1;1;1;1;no
@@ -238,7 +238,7 @@ Review Rating;Review Writer;Title;Date Published;Verify Status;Country;Aircraft;
 1;D Ellis;"""good luck, you will need it""";15-6-2019;Trip Verified;Canada;Boeing 737-800;Amsterdam to Manchester;Couple Leisure;Economy Class;June 2019;1;2;2;2;n/a;n/a;1;no
 3;A Thomas;"""never book a flight with KLM again""";5-6-2019;Not Verified;Canada;n/a;Leeds to Bremen via Amsterdam;Business;Economy Class;June 2019;1;1;4;2;1;1;2;no
 8;F Steene;"""Smooth morning flight""";4-6-2019;Trip Verified;Canada;E190;ZRH to AMS;Solo Leisure;Economy Class;June 2019;5;5;4;4;n/a;n/a;4;yes
-10;Sinéad Cahalan;"""Excellent experience""";3-6-2019;Trip Verified;Canada;n/a;Dublin to Lima via Amsterdam;Family Leisure;Business Class;June 2019;5;5;5;5;5;n/a;5;yes
+10;SinÃ©ad Cahalan;"""Excellent experience""";3-6-2019;Trip Verified;Canada;n/a;Dublin to Lima via Amsterdam;Family Leisure;Business Class;June 2019;5;5;5;5;5;n/a;5;yes
 1;S Gan;"""the worst day of my life""";3-6-2019;Trip Verified;Netherlands;n/a;Milan to Amsterdam;Couple Leisure;Economy Class;June 2019;1;1;1;1;1;n/a;1;no
 8;J Versteen;"""seats were quite comfortable""";2-6-2019;Trip Verified;Netherlands;Boeing 737-800;Paris to Amsterdam;Couple Leisure;Economy Class;May 2019;4;4;4;3;n/a;n/a;4;yes
 1;H Marleen;"""Never again""";1-6-2019;Trip Verified;Netherlands;n/a;Xiamen to Luxembourg via Amsterdam;Solo Leisure;Economy Class;May 2019;1;3;1;1;2;1;1;no
@@ -274,7 +274,7 @@ Review Rating;Review Writer;Title;Date Published;Verify Status;Country;Aircraft;
 4;Adrian Suharto;"""no menu for Business class""";8-4-2019;Trip Verified;Netherlands;Boeing 777-300;Singapore to Denpasar;Couple Leisure;Business Class;apr-19;4;3;1;1;4;n/a;4;no
 4;Jaap de Korver;"""Next time another airline""";7-4-2019;Trip Verified;Netherlands;Boeing 787;San Jose to Amsterdam;Business;Business Class;March 2019;1;4;4;1;4;n/a;4;no
 5;Marcelo Blumenfeld;"""steady decline in quality""";4-4-2019;Not Verified;Netherlands;n/a;Birmingham to Sao Paulo via Amsterdam;Couple Leisure;Economy Class;apr-19;2;3;3;3;3;2;3;no
-8;H Malak;"""Overall really nice""";29-3-2019;Trip Verified;Netherlands;n/a;Osaka to Düsseldorf via Amsterdam;Solo Leisure;Economy Class;apr-18;4;5;5;5;3;n/a;5;yes
+8;H Malak;"""Overall really nice""";29-3-2019;Trip Verified;Netherlands;n/a;Osaka to DÃ¼sseldorf via Amsterdam;Solo Leisure;Economy Class;apr-18;4;5;5;5;3;n/a;5;yes
 1;S Geramo;"""no customer service whatsoever""";21-3-2019;Trip Verified;Netherlands;n/a;Dublin to Milan;Couple Leisure;Economy Class;October 2018;1;1;1;n/a;n/a;n/a;1;no
 10;James Kidd;"""A fantastic airline""";15-3-2019;Trip Verified;Netherlands;Boeing 737-800;Newcastle to Amsterdam;Family Leisure;Economy Class;March 2019;5;5;5;5;n/a;n/a;5;yes
 1;H Marshana;"""no help was provided""";13-3-2019;Trip Verified;Netherlands;n/a;Birmingham to Alicante via Amsterdam;Family Leisure;Economy Class;February 2019;1;1;1;1;1;1;1;no
@@ -309,7 +309,7 @@ Review Rating;Review Writer;Title;Date Published;Verify Status;Country;Aircraft;
 1;C Bodart;"""booking still not in order""";7-1-2019;Not Verified;United States;n/a;Geneva to Vancouver via Amsterdam;Solo Leisure;Economy Class;January 2019;1;n/a;n/a;n/a;n/a;n/a;1;no
 1;J Gillams;"""Very bad customer service""";6-1-2019;Trip Verified;United States;Boeing 737-900;Oslo to Amsterdam;Couple Leisure;Economy Class;dec-18;1;1;3;3;n/a;n/a;1;no
 9;G Meares;"""It was a great flight""";4-1-2019;Trip Verified;United States;n/a;Amsterdam to Freetown;Solo Leisure;Economy Class;January 2019;4;5;5;4;4;n/a;4;yes
-10;S Keizen;"""have three seats to myself""";4-1-2019;Trip Verified;Belgium;n/a;Amsterdam to Bogotá;Solo Leisure;Economy Class;January 2019;5;5;5;5;5;n/a;5;yes
+10;S Keizen;"""have three seats to myself""";4-1-2019;Trip Verified;Belgium;n/a;Amsterdam to BogotÃ¡;Solo Leisure;Economy Class;January 2019;5;5;5;5;5;n/a;5;yes
 5;S Berston;"""disrespected and offended""";3-1-2019;Trip Verified;Belgium;n/a;Amsterdam to Copenhagen;Solo Leisure;Economy Class;January 2019;3;3;2;1;n/a;n/a;2;no
 4;Michele Francis;"""staff were abrupt and unhelpful""";31-12-2018;Not Verified;Belgium;A330;Vancouver to Athens via Amsterdam;Family Leisure;Economy Class;dec-18;3;4;2;5;5;5;4;no
 5;Taisier Elsarag;"""express my deepest disappointment""";28-12-2018;Not Verified;Belgium;n/a;Calgary to Khartoum via Amsterdam;Solo Leisure;Economy Class;dec-18;3;4;4;4;4;n/a;4;no
@@ -322,7 +322,7 @@ Review Rating;Review Writer;Title;Date Published;Verify Status;Country;Aircraft;
 10;Megan De Wet;"""customer service was incredible""";13-12-2018;Not Verified;South Africa;n/a;Cape Town to Amsterdam;Solo Leisure;Economy Class;aug-18;5;5;5;5;5;n/a;5;yes
 1;W Simpson;"""Appalling and inexcusable""";5-12-2018;Trip Verified;South Africa;n/a;Los Angeles to Nairobi via Amsterdam;Business;Economy Class;nov-18;1;3;5;3;5;5;1;no
 9;G Meares;"""great business class product""";4-12-2018;Trip Verified;South Africa;Boeing 747-400 / A330-200;New York to Sierra Leone via Amsterdam;Business;Business Class;dec-18;4;5;4;4;4;n/a;4;yes
-3;S Mordon;"""300€ added to each of tickets""";29-11-2018;Trip Verified;South Africa;n/a;Dublin to Bangkok via Amsterdam;Solo Leisure;Economy Class;aug-18;1;1;5;3;n/a;n/a;1;no
+3;S Mordon;"""300Â€ added to each of tickets""";29-11-2018;Trip Verified;South Africa;n/a;Dublin to Bangkok via Amsterdam;Solo Leisure;Economy Class;aug-18;1;1;5;3;n/a;n/a;1;no
 2;Gella Matatov;"""should have been treated better""";26-11-2018;Not Verified;South Africa;n/a;Amsterdam to New York;Couple Leisure;Economy Class;nov-18;1;1;1;1;1;1;1;no
 1;Kim Wheeler;"""nobody seemed to know or care""";23-11-2018;Trip Verified;South Africa;n/a;London to Jakarta via Amsterdam;Business;Business Class;nov-18;1;1;2;1;1;1;1;no
 3;Guillermo Neumann;"""The food was so bad""";20-11-2018;Not Verified;South Africa;Boeing 747;Amsterdam to Buenos Aires;Solo Leisure;Business Class;apr-18;3;2;5;3;1;1;2;no
@@ -332,7 +332,7 @@ Review Rating;Review Writer;Title;Date Published;Verify Status;Country;Aircraft;
 8;Kah Kay Au;"""the seat was comfortable""";14-11-2018;Trip Verified;Singapore;Boeing 777-300ER;Amsterdam to Singapore;Solo Leisure;Business Class;nov-18;4;4;4;4;3;n/a;4;yes
 4;A Danenka;"""as unpleasant as possible""";14-11-2018;Trip Verified;Singapore;n/a;Zurich to Gdansk via Amsterdam;Couple Leisure;Economy Class;aug-18;3;3;5;n/a;n/a;n/a;1;no
 1;M Pearson;"""completely disorganized mess""";13-11-2018;Trip Verified;Singapore;n/a;Trondheim to Florence via Amsterdam;Business;Economy Class;aug-18;3;2;3;3;1;1;1;no
-9;Kah Kay Au;"""WiFi costly at €10 per 50MB""";12-11-2018;Trip Verified;Singapore;Boeing 787-9;Rio de Janeiro to Amsterdam ;Solo Leisure;Business Class;nov-18;4;4;4;4;3;3;4;yes
+9;Kah Kay Au;"""WiFi costly at Â€10 per 50MB""";12-11-2018;Trip Verified;Singapore;Boeing 787-9;Rio de Janeiro to Amsterdam ;Solo Leisure;Business Class;nov-18;4;4;4;4;3;3;4;yes
 1;N Irving;"""do not care about their customer needs""";11-11-2018;Trip Verified;Singapore;n/a;Madrid to Stavanger via Amsterdam;Solo Leisure;Economy Class;nov-18;1;2;3;2;2;1;1;no
 1;Devashish Dasa;"""nothing good to say""";2-11-2018;Trip Verified;Singapore;Boeing 787-9;Delhi to Rio de Janeiro via Amsterdam;Couple Leisure;Economy Class;October 2018;1;1;1;1;1;1;1;no
 6;H Huurnink;"""Not overly enthusiastic""";31-10-2018;Not Verified;Singapore;Boeing 777-300ER;Denpasar to Amsterdam via Singapore;Couple Leisure;Economy Class;October 2018;3;3;2;2;2;n/a;3;no
@@ -392,7 +392,7 @@ Review Rating;Review Writer;Title;Date Published;Verify Status;Country;Aircraft;
 5;Wolfgang Bernhart;"""Good value for money""";6-7-2018;Trip Verified;Germany;n/a;Stuttgart to Amsterdam;Family Leisure;Economy Class;July 2018;4;3;3;1;n/a;n/a;3;yes
 6;C Tan;""" ground service at London very poor""";5-7-2018;Trip Verified;Germany;Boeing 737;London to Amsterdam;Solo Leisure;Business Class;July 2018;4;3;5;4;n/a;n/a;3;yes
 9;David Houlihan;"""crew were very efficient""";2-7-2018;Not Verified;Germany;Embraer 190;Dublin to Amsterdam;Business;Business Class;June 2018;4;4;5;4;n/a;n/a;5;yes
-10;P Rueber;"""the staff is friendly""";30-6-2018;Trip Verified;Germany;n/a;Inverness to Zürich via Amsterdam;Solo Leisure;Economy Class;June 2018;4;4;5;5;n/a;n/a;4;yes
+10;P Rueber;"""the staff is friendly""";30-6-2018;Trip Verified;Germany;n/a;Inverness to ZÃ¼rich via Amsterdam;Solo Leisure;Economy Class;June 2018;4;4;5;5;n/a;n/a;4;yes
 1;G Simpson;"""a 48 hour nightmare""";24-6-2018;Trip Verified;Germany;Boeing 747, Boeing 777 ;Chicago to Cape Town via Amsterdam;Family Leisure;Economy Class;June 2018;1;2;3;1;1;1;1;no
 8;J Boeken;"""satisfied with the service""";22-6-2018;Trip Verified;Germany;Boeing 737;Paris to Amsterdam;Solo Leisure;Economy Class;May 2018;5;3;3;n/a;n/a;n/a;5;yes
 9;J Boeken;"""Overall a good experience""";22-6-2018;Trip Verified;Germany;Boeing 777;Amsterdam to Incheon;Solo Leisure;Economy Class;June 2018;5;5;4;5;5;n/a;4;yes
