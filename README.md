@@ -138,6 +138,13 @@ The data set, as stated above, is scraped based on the COVID-19 period. Therefor
 There are no legal and ethical concerns when scraping this data. The people that are submitting their reviews on this website know that their information is visible. Furthermore, the collected data is, besides the name where they can indicate whether they want to use their own name, fully anonymous. 
 
 
+# 1.5 Users
+## *Users of the data learn about tasks the data set could be used for*
+The dataset has not yet been used by other people or researchers besides the projectteam that has scraped the information of the dataset. 
+
+The dataset obtained after scraping the website airlinequality.com is mainly made for airlines. As already described in the motivation, it is very valuable for airlines to observe reviews to enhance the customer experience of a customer. This dataset is valuable because it saves valuable time because all information is contained in one data file. This allows marketers to easily create segments and find out what the wishes and needs of these segments are.
+
+The dataset should not be used to contact the travellers in the dataset for commercial or other reasons. 
 
 
 ## About
