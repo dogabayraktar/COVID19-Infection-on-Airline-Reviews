@@ -125,6 +125,18 @@ Most columns do not have missings, since these variables were mandatory question
 Reviewers could fill in the type of aircraft if they knew the type of aircraft. When people did not fill in the type of aircraft, is has been registered as a missing.
 For the rating on several points only the overall rating and the rating on “Value for Money”  were mandatory. For the other ratings, reviewers could choose whether they rated the variable. When people did not review the variable, the variable is shown as a missing. 
 
+# 1.3 Collection process
+
+## *Technical extraction plan*
+The website that is scraped is, as stated before, www.airlinequality.com. This is a website and therefore we could either use BeautifulSoup or selenium in order to scrape data from the website. We decide to use BeautifulSoup for scraping. The reason that we decided to do this is mainly because we do not need the Java elements of www.airlinequality.com in order to properly scrape the website. Also, since www.airlinequality.com show all the reviews instantly without the need for scrolling throughout the page. Furthermore, all the elements that we want to scrape from www.airlinequality.com are HTML-elements. Therefore, BeautifulSoup works perfectly for scraping www.airlinequality.com. 
+There are multiple entities that are scraped from www.airlinequality.com. First, in order to scrape all the reviews for one airline during COVID-19, we had to determine which pages of reviews considered the COVID-19 period. We used June 1, 2018 as the starting date. We included all the reviews up to 2021-10-12 20:57. At KLM, this means that we scraped the first 40 pages of reviews. The number of pages depends on the airline, but can be based on the dates provided above. Second, we also determined to scrape multiple airlines. The airlines can be manually chosen from the 
+In order to scrape www.airlinequality.com, there are a few steps that a potential researcher needs to do manually. First, select the airline that is of interest. Airine quality provides a list of airlines from A to Z where you can select the airline or airlines that you are interested in. Second, select the period that should be investigated. Based on this period, the researcher needs to determine the number of pages that covers this period and this number of pages should be implemented in the code. 
+
+The data set, as stated above, is scraped based on the COVID-19 period. Therefore, June 1, 2018 was used as the starting date. The data set is finalized on 2021-10-12 20:57. Therefore, no reviews that are submitted after this data are visible in the dataset. The final data set is stored in the (repository) [https://github.com/dogabayraktar/COVID19-Infection-on-Airline-Reviews/tree/main/data]  
+
+## *Legal and ethical concerns*
+There are no legal and ethical concerns when scraping this data. The people that are submitting their reviews on this website know that their information is visible. Furthermore, the collected data is, besides the name where they can indicate whether they want to use their own name, fully anonymous. 
+
 
 Research question:
 
