@@ -137,6 +137,8 @@ The data set, as stated above, is scraped based on the COVID-19 period. Therefor
 ## *Legal and ethical concerns*
 There are no legal and ethical concerns when scraping this data. The people that are submitting their reviews on this website know that their information is visible. Furthermore, the collected data is, besides the name where they can indicate whether they want to use their own name, fully anonymous. 
 
+# 1.4 Preprocessing
+
 
 # 1.5 Users
 ## *Users of the data learn about tasks the data set could be used for*
