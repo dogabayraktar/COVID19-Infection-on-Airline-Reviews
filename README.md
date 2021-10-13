@@ -112,6 +112,18 @@ The dataset mainly represents the Solo Leisure travellers and the Couple Leisure
 
 The dataset contains of namely reviewers who travelled in Economy Class and Business Class. The dataset has almost no reviews of travellers Premium Economy and First Class. When information is needed for Premium Economy and First Class travelers, this dataset is not suitable.
 
+## *Data inspection per entity*
+Most columns do not have missings, since these variables were mandatory questions to fill in the review. For the variables that contain missings, the number of missings are given below:
+* Type of aircraft &#8594; 214 missings
+* Rating on Seat Comfort &#8594; 31 missings
+* Rating on Cabin Staff Service &#8594; 31 missings
+* Rating on Food & Beverages &#8594; 72 missings
+* Rating on Inflight Entertainment &#8594; 177 missings
+* Rating of Wifi & Connectivity &#8594; 290 missings
+* Rating of Ground Service &#8594; 23 misssings
+
+Reviewers could fill in the type of aircraft if they knew the type of aircraft. When people did not fill in the type of aircraft, is has been registered as a missing.
+For the rating on several points only the overall rating and the rating on “Value for Money”  were mandatory. For the other ratings, reviewers could choose whether they rated the variable. When people did not review the variable, the variable is shown as a missing. 
 
 
 Research question:
