@@ -2,7 +2,7 @@
 In this documentation answers have been given on the questions of section 1-5 of the Datasheets for Datasets document. The answered of these questions have been condensed and described below.
 
 # 1.1 Motivation 
-The dataset that is available after scraping the website airlinequality.com has been scraped by projectgroup 6 of the course Online Data Collection and Management. This course has been given by Hannes Datta at Tilburg University and is part of the master Marketing Analytics. No external partner funded the creation of the dataset. 
+The dataset that is available after scraping the website [airlinequality.com](https://www.airlinequality.com) has been scraped by projectgroup 6 of the course Online Data Collection and Management. This course has been given by Hannes Datta at Tilburg University and is part of the master Marketing Analytics. No external partner funded the creation of the dataset. 
 
 ## *Motivation for data context*
 According to research of the European.ce (2020) 1,034 million Europeans travelled by plane. This is an increase of 3.8% compared with 2018. Corona has shut down the aircraft industry for a while, but the industry is currently getting back on track.  Because this market has so many customers, there are also many suppliers. It is estimated that there are around 5.000-5.500 airlines across the world, of which there are 700-800 commercial airlines operating scheduled flights globally.
@@ -25,7 +25,7 @@ The websites that have been analysed besides airlinequality.com are mentioned be
 
 # 1.2 Composition
 ## *Entities, linkages, timeframe and algorithmic biases*
-The data scraped in this report will give assess to insides about KLM Royal Dutch Airlines customer  reviews places on the website airlinequality.com. The scraping code that has been used to scrape the data from KLM’s page can also be used to scrape data from other airlines. After scarping the reviews of KLM, a dataset has been made of the information that has been scraped.
+The data scraped in this report will give assess to insides about KLM Royal Dutch Airlines customer  reviews placed on the website airlinequality.com. The scraping code that has been used to scrape the data from KLM’s page can also be used to scrape data from other airlines. After scarping the reviews of KLM, a dataset has been made of the information that has been scraped.
 The dataset contains of 19 columns and 400 rows. Which means that information of 400 reviews/reviewers of KLM are available in the dataset. Each instance of the dataset represents a review of a traveller of KLM. In figure 1.2.1 an example of a review on airlinequality.com is given. 
 
 ![image](https://user-images.githubusercontent.com/90376471/137156069-ae5aa05e-c847-4b10-bef2-cf91fe7cf529.png)
@@ -150,7 +150,10 @@ The repository consists of four folders (data, docs,src) and two files (.gitigno
 
 ## More resources
 
-Point interested users to any related literature and/or documentation.
+- KLM reviews and ratings on airlinequality.com can be accesed though clicking [here](https://www.airlinequality.com/airline-reviews/klm-royal-dutch-airlines).
+- (Ban & Kim, 2019)
+- (Liau & Tan, 2014)
+- (Brochado et. Al, 2019)
 
 ## About
 
