@@ -138,7 +138,6 @@ The data set, as stated above, is scraped based on the COVID-19 period. Therefor
 There are no legal and ethical concerns when scraping this data. The people that are submitting their reviews on this website know that their information is visible. Furthermore, the collected data is, besides the name where they can indicate whether they want to use their own name, fully anonymous. 
 
 
-Research question:
 
 ## Motivation
 The Covid-19 pandemic has heavily affected the airline industry. However, as COVID-19 measures are slowly being alleviated, demand for airplane flights is expected to rise again. For example, it could be interesting to research what airlines have been able to adapt most effectively to the pandemic. Therefore, it can be beneficial to gather data about the airline industry.
@@ -146,20 +145,8 @@ The Covid-19 pandemic has heavily affected the airline industry. However, as COV
 	When choosing an airline, a choice often has to be made between price and service. Where one wants to fly cheaply, another finds service more important. But it is expected that trust is also a criteria that many passengers take into consideration since everyone wants that the airline brings you safely from one place to another. That is why we expect that reviews, for example, are very important in this sector and useful to analyse. 
 
 
-
-## Method and results
-
-First, introduce and motivate your chosen method, and explain how it contributes to solving the research question/business problem.
-
-Second, summarize your results concisely. Make use of subheaders where appropriate.
-
 ## Repository overview
-
-Provide an overview of the directory structure and files.
-
-## Running instructions
-
-Explain to potential users how to run/replicate your workflow. Touch upon, if necessary, the required input data, which (secret) credentials are required (and how to obtain them), which software tools are needed to run the workflow (including links to the installation instructions), and how to run the workflow. Make use of subheaders where appropriate.
+The repository consists of four folders (data, docs,src) and two files (.gitignore, READ.md). The motivation for the data scraping and reasoning, the composition of the data that is scraped and collection process can be found at the READ.md file that is currently being viewed.The data folder contains the data scraped from the Airlinequality.com webpage for KLM airline reviews. The docs folder contains visualizations of the reviews scrapped and lastly the src folder contains the codes that is used to scrape and report the data.
 
 ## More resources
 
