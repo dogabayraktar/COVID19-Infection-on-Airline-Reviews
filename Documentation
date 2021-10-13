@@ -40,7 +40,7 @@ A written review of their experience	Character
 
 ## Sampling, construct measurement and data structure
 
-## Users 
+## Uses 
 
 The dataset obtained after scraping the website airlinequality.com is mainly made for airlines. As already described in the motivation, it is very valuable for airlines to observe reviews to enhance the customer experience of a customer. This dataset is valuable because it saves valuable time because all information is contained in one data file. This allows marketers to easily create segments and find out what the wishes and needs of these segments are.
 
