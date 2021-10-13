@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
+=======
+src/collection/.ipynb_checkpoints/*
+.Rhistory
+>>>>>>> 6eee20d9fb5604a9bbab7bf38585c415b526736b
