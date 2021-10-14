@@ -1,10 +1,9 @@
 # Documentation
-In this documentation answers have been given on the questions of section 1-5 of the Datasheets for Datasets document. The answered of these questions have been condensed and described below.
 
-# 1.1 Motivation 
-The dataset that is available after scraping the website [airlinequality.com](https://www.airlinequality.com) has been scraped by projectgroup 6 of the course Online Data Collection and Management. This course has been given by Hannes Datta at Tilburg University and is part of the master Marketing Analytics. No external partner funded the creation of the dataset. 
 
-## *Motivation for data context*
+# 1. Motivation
+
+## *1.1 For what purpose was the dataset created? Was there a specific task in mind? Was there a specific gap that needed to be filled?*
 According to research of the European.ce (2020) 1,034 million Europeans travelled by plane. This is an increase of 3.8% compared with 2018. Corona has shut down the aircraft industry for a while, but the industry is currently getting back on track.  Because this market has so many customers, there are also many suppliers. It is estimated that there are around 5.000-5.500 airlines across the world, of which there are 700-800 commercial airlines operating scheduled flights globally.
 According to research airlines have to focus on customer satisfaction and customer experience to differentiate itself from other competitors in this market (Ban & Kim, 2019). Studies have shown that analysing online review data has several advantages for the customers’ satisfaction and the way the customers experience the airlines. These advantages are:
 * It is an inexpensive way to gather information as reviews are often already available on websites or apps (Liau & Tan, 2014).  
@@ -12,8 +11,7 @@ According to research airlines have to focus on customer satisfaction and custom
 * Reviews are fast, which means that reviews are often put online within days of a customer's "purchase" (Brochado et. Al, 2019).
 
 These advantages show that gaining data from reviews of customers can be an interesting way to analyse and improve customer satisfaction. However, there is no dataset available where airlines can analyse all reviews of their airline. Analysing reviews from website is extremely time consuming because little to no filters can be applied and therefore it is very difficult to make segments. Scraping the reviews from a website to make a dataset, can therefore be very useful for airlines. 
- 
-## *Motivation for website*
+
 There are plenty of websites on the internet where reviews of airlines are collected. Several websites have been analysed and the website airlinequality.com has been chosen as the best option for scraping because of the following reasons:
 * Airlinequality.com gives customers the opportunity to verify their flight though by uploading their boading pass or ticket. Airlines can therefore be sure that the verified reviews are written by people who have actually used the airline. As a result, the dataset contains more credible data.
 * Airlinequality.com lets customers rate the airline on several different variables which already have been mentioned above. This gives the airline star ratings on various variables which gives the airline insight into its good and bad points.
@@ -23,13 +21,88 @@ The websites that have been analysed besides airlinequality.com are mentioned be
 * Tripadvisor.com. This website lets the customer rates on different variables but does not give verified reviews, which means that the website does not check whether the customer has actually been on the flight he is reviewing. This allows people to write fake reviews, this reduces the reliability of the dataset.
 * Flight.report.com. This website lets customer also rate on different variables but each review is published on a separate page. When scraping these reviews, each page should be scraped individually to get all the reviews. This is extremely time consuming and therefore these website has not been chosen to scrape.
 
-# 1.2 Composition
-## *Entities, linkages, timeframe and algorithmic biases*
-The data scraped in this report will give assess to insides about KLM Royal Dutch Airlines customer  reviews placed on the website airlinequality.com. The scraping code that has been used to scrape the data from KLM’s page can also be used to scrape data from other airlines. After scarping the reviews of KLM, a dataset has been made of the information that has been scraped.
-The dataset contains of 19 columns and 400 rows. Which means that information of 400 reviews/reviewers of KLM are available in the dataset. Each instance of the dataset represents a review of a traveller of KLM. In figure 1.2.1 an example of a review on airlinequality.com is given. 
+## *1.2 Who created this dataset (e.g. which team, research group) and on behalf of which entity (e.g., company, institution, organization)?*
+The dataset that is available after scraping the website airlinequality.com has been scraped by projectgroup 6 of the course Online Data Collection and Management. This course has been given by Hannes Datta at Tilburg University and is part of the master Marketing Analytics. The names and email addresses of each of the members of the project group can be found at the end of the documentation. 
 
-![image](https://user-images.githubusercontent.com/90376471/137156069-ae5aa05e-c847-4b10-bef2-cf91fe7cf529.png)
 
+## *1.3 Who funded the creation of the dataset?*
+No external partner directly funded the creation of the dataset. But the possibility of compiling this dataset comes from the teaching materials of Tilburg University. They provided teaching materials that ensured that project group members had enough information to scrape the airlinequality.com website.
+
+
+# 2. Composition
+## *2.1 What do the instances that comprise the dataset represent?*
+Each instance of the dataset represents a review of a traveller of KLM. The instances gives information about the review but also about the traveller who wrote the review. In figure 1.2.1 an example of a review on airlinequality.com is given. In figure 2.1.1 an example of a review on airlinequality.com is given.
+
+![image](https://user-images.githubusercontent.com/90376471/137301851-ce52cb8e-efb9-43ab-9959-a49539773236.png)
+
+figure 2.1.1 example of review
+
+## *2.2 How many instances are there in total?*
+In total the dataset consist of 1.230 instances, in other words, 1,230 reviews have been processed in the dataset. This does not mean that all those reviews were written by 1.230 different passengers. According to the dataset 1,109 unique writers wrote the reviews. It must been said that, before handing in the review, the traveller can choose that a screen name is visible instead of their own name. As a result, it cannot be guaranteed that the dataset actually contains 1,109 unique writers since writer could write different reviews but all with another screen name.
+
+| *reviews* | *1,230* |
+| ----------|---------|
+
+|*unique writers* | *1,109* |
+|-----------------|--------|
+
+## *2.3 Does the dataset contain all possible instances or is it a sample of instances from a larger set?*
+The dataset consist of all the reviews that the webite airlinequality.com has of KLM. So no sample was made of the reviews of the website. But not all KLM travelers write a review on airlinequality.com after they flew with KLM. So in that case it can be said that the dataset is a sample of a larger dataset. The dataset contains of the reviews that have been published between 21-03-2013 and 08-10-2021. In the table below it is given how much reviews are available in the dataset per year and how much passengers have travelled with KLM in that year. 
+
+| *Year* | *Reviews of flight in dataset* | *Total passengers of KLM* |
+| ----- | ---------------------------- | ----------------------- |
+| Before april 2015 | 344 | - |
+| april 2015 -2016| 126 | - |
+| 2016  | 155| 30,399,000 |
+|2017   |  150 | 32,689,000 |
+| 2018  |              154              |  34,170,000 |
+| 2019  |              188             |  25,092,000 |
+| 2020  |              70              |  11,231,000 |
+| 2021  |              43              |  ?          |
+| *Total* | 400| - |
+
+(Mazareanu, 2021)
+
+In the recent years, only a very small proportion of KLM travelers have left a review at airlinequality(e.g. in 2019 0.00075%). So a sample of the entire population was taken, but it was not selected randomly. The members of the population who left a review on airlinequality.com were selected for the sample. When research is done with the dataset, they represent the population. In the following tables it is shown what the dataset consists of and whether the dataset is representive. 
+
+In the following table it has been shown whether the dataset is representative geographically for all travelers of KLM. 
+
+| *Country* | *frequency in dataset* | *% of the dataset* |
+| --------- | ---------------------- | ------------------ |
+|United Kingdom | 271 | 22.0% |
+|Netherlands | 192 | 15.6% |
+|United States | 129 | 10.5% |
+|Canada | 87 | 7.1% |
+|Germany |64 | 5.2% |
+|Australia | 36 | 2.9% |
+|Switzerland | 30 | 2.4% |
+|Singapore |26 | 2.1% |
+|Other countries| 395 | 32,1% |
+
+In the dataset there are 78 different countries mentioned. In 2019, KLM flew to 112 different countries (AirfranceKLM, 2021). Assuming that at least one person in these countries has flown with KLM, there are still many countries that are not represented in the dataset. Mainly travellers from the United Kingdom, Netherland and the United States are represented in the dataset. Almost half of the people in the dataset are from these three countries.
+
+| *Type of Traveller* |	*Freq. in dataset* | *% of the dataset* |
+| ------------------- | ------------------ | ------------------ |
+| Solo Leisure	|166	|41.5% 
+| Couple Leisure|	105	|26.2%|
+| Business	|68	|17.0% |
+| Family Leisure|	61	|15.2%|
+| *Total*	|400	| |
+
+The dataset mainly represents the Solo Leisure travellers and the Couple Leisure travellers. But the business travelers and the family travelers are also represented in the dataset. The dataset is therefore representative in terms of traveler type.
+
+
+| *Seat Type* |	*Freq. in dataset* | *% of the dataset* |
+| ----------- | ------------------ | ------------------ |
+|Economy Class |316	|41.5%|
+| Business Class |	72|	26.2%|
+| Premium Economy |	11|	17.0%|
+|First Class |	1	|15.2%|
+| *Total* |	400	|  |
+
+The dataset contains of namely reviewers who travelled in Economy Class and Business Class. The dataset has almost no reviews of travellers Premium Economy and First Class. When information is needed for Premium Economy and First Class travelers, this dataset is not suitable.
+
+## *2.4 What data does each instance consist of?*
 The dataset consists of raw data. Meaning that the data has been unproccesed. All the data has been scraped from the qualityairline.com and put into the dataset without without any data being removed or added to the data. The information that has been given in the dataset has been published in the same way on the website of airlinequality.com. Per review/reviewer the following information has been given:
 
 * Column 1. In the first column the overall rating of the reviewer on KLM has been given. This rating can contain a number between 1 and 10, with 1 being the lowest score and 10 being the highest score. There are no missing in this column, since this was a required part to complete the review. 
@@ -46,6 +119,36 @@ The dataset consists of raw data. Meaning that the data has been unproccesed. Al
 * Column 12. In column 12 the answer of the rating for “Value for Money” has been given. The rating can contain of a number between 1 and 5, with 1 being the lowest score and 5 being the highest score. In this column there are also no missings since this was a required part of the review.
 * Column 13-18. In the columns 13-18 the ratings are given for respectively “Seat Comfort”, “Cabin Staff”, “Food & Beverages”, “Inflight entertainment”, “Wifi & Connectivity” and “Ground Service”. The rating can contain of a number between 1 and 5, with 1 being the lowest score and 5 being the highest score. Since these ratings were not a mandatory item of the review, there are missings for each of these columns. The exact numbers of missing are given in the paragraph "Data inspection per entity".    
 * Column 19. In the last column it is given whether the review would recommend the airline, in this case KLM, or not. In case the reviewer would recommend the airline, a ‘yes’ has been given. In case the reviewer would not recommend the airline, a ‘no’ has been given. 
+
+## *2.5 Is there a label or target associated with each instance?*
+
+## *2.6 Is any information missing from individual instances?*
+There are several instances that contain missings in the dataset. There are several reasons for this:
+1) It appears that until April 2015 the traveller's route, traveler type and date the reviewer flew were not asked when a reviewer wrote a review. No data is available untill this date. After April 2015 no missings were found in these variables.
+2) Reviewers could fill in the type of aircraft if they knew the type of aircraft. When people did not fill in the type of aircraft, is has been registered as a missing.
+3) For the rating on several points only the overall rating and the rating on “Value for Money”  were mandatory. For the other ratings, reviewers could choose whether they rated the variable or not . When people did not review the variable, the variable is shown as a missing. 
+
+For the variables that contain missings, the number of missings are given below:
+* Type of aircraft &#8594; 214 missings
+* Rating on Seat Comfort &#8594; 31 missings
+* Rating on Cabin Staff Service &#8594; 31 missings
+* Rating on Food & Beverages &#8594; 72 missings
+* Rating on Inflight Entertainment &#8594; 177 missings
+* Rating of Wifi & Connectivity &#8594; 290 missings
+* Rating of Ground Service &#8594; 23 misssings
+* Route the drive flew &#8594; 343 missings
+* Type of traveller &#8594; 343 missings
+* Date the flight &#8594; 344 missings
+
+One traveler, has entered the route and the type of traveler, but not the day that he flew. How this is possible, is not clear. 
+
+
+The data scraped in this report will give assess to insides about KLM Royal Dutch Airlines customer  reviews placed on the website airlinequality.com. The scraping code that has been used to scrape the data from KLM’s page can also be used to scrape data from other airlines. After scarping the reviews of KLM, a dataset has been made of the information that has been scraped.
+The dataset contains of 19 columns and 400 rows. Which means that information of 400 reviews/reviewers of KLM are available in the dataset. Each instance of the dataset represents a review of a traveller of KLM. In figure 1.2.1 an example of a review on airlinequality.com is given. 
+
+![image](https://user-images.githubusercontent.com/90376471/137156069-ae5aa05e-c847-4b10-bef2-cf91fe7cf529.png)
+
+
 
 The dataset consist partly of data from the reviewer. However, the data that is available does not contain confidential data from reviewers . The following things are known about each review:
 * Name, in case the reviewer gave premission. If the reviewer did not give permission to publish the name, a fake name appeared. It can not be seen whether the name of a review is their real name or their fake name. 
@@ -71,42 +174,6 @@ The dataset is a sample of a larger dataset. A total of 1,230 KLM reviews can be
 
 In recent years, only a very small proportion of KLM travelers have left a review at airlinequality(e.g. in 2019 0.00075%). Therefore the dataset has been analysed and in the tables below it is given whether a certain subgroup   is represented in the dataset. 
 
-In the following table it has been shown whether the dataset is representative geographically for all travelers of KLM. 
-
-| *Country* | *frequency in dataset* | *% of the dataset* |
-| --------- | ---------------------- | ------------------ |
-|United States | 90 | 22.5% |
-|United Kingdom | 60 | 15.0% |
-|Netherlands | 50 | 12.5% |
-|Singapore | 20 | 5% |
-|Germany |20 | 5% |
-|Canada | 20 | 5% |
-|Belgium | 20 | 5% |
-|Austria |20 | 5% |
-|Other countries| 100 | 25% |
-
-In the dataset there are 18 different countries mentioned. In 2019, KLM flew to 112 different countries (AirfranceKLM, 2021). Assuming that at least one person in these countries has flown with KLM, there are still at least 94 countries that are not represented in the dataset.
-
-| *Type of Traveller* |	*Freq. in dataset* | *% of the dataset* |
-| ------------------- | ------------------ | ------------------ |
-| Solo Leisure	|166	|41.5% 
-| Couple Leisure|	105	|26.2%|
-| Business	|68	|17.0% |
-| Family Leisure|	61	|15.2%|
-| *Total*	|400	| |
-
-The dataset mainly represents the Solo Leisure travellers and the Couple Leisure travellers. But the business travelers and the family travelers are also represented in the dataset. The dataset is therefore representative in terms of traveler type.
-
-
-| *Seat Type* |	*Freq. in dataset* | *% of the dataset* |
-| ----------- | ------------------ | ------------------ |
-|Economy Class |316	|41.5%|
-| Business Class |	72|	26.2%|
-| Premium Economy |	11|	17.0%|
-|First Class |	1	|15.2%|
-| *Total* |	400	|  |
-
-The dataset contains of namely reviewers who travelled in Economy Class and Business Class. The dataset has almost no reviews of travellers Premium Economy and First Class. When information is needed for Premium Economy and First Class travelers, this dataset is not suitable.
 
 
 For the data set that has now been given, splitting is not yet recommended, since in the data set some subgroups are only small represented and when the data set is split, this group will only become smaller. The code that has been given for scraping the data can be used again to scrape new reviews. if, for example, new data is added every month from new reviews, it is recommended to split the dataset into a testing and a training dataset. In that way new models for analysing data could be tested easiy with the testing data and then could be applied for the training data. 
