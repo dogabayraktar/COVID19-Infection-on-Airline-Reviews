@@ -157,7 +157,7 @@ Since the data in the dataset is scraped from airlinequality.com, an extension o
 
 The latest version of the dataset (which contains data up untill 14-10-2021) can be found in [the data folder](https://github.com/dogabayraktar/COVID19-Infection-on-Airline-Reviews/tree/main/data). 
 
-## *2.11 Does the dataset contain data that might be considered confidential? * 
+## *2.11 Does the dataset contain data that might be considered confidential?* 
 No, the data available is also publicly available on the internet so no confidential data is included in the dataset. 
 
 ## *2.12 Does the dataset contain data that, if viewed directly, might be offensive, insulting, threatening, or might otherwise cause anxiety?*
