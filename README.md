@@ -202,15 +202,15 @@ No, no data is included that may be considered sensitive in any way.
 ## *3.5 Over what timeframe was the data collected?*
 ## *3.6 Were any ethical review processes conducted?*
 ## *3.7 Does the dataset relate to people?*
-## *3.8 Did you collect the data from the individuals in question directly, or obtain it via third parties or other sources?
+## *3.8 Did you collect the data from the individuals in question directly, or obtain it via third parties or other sources?*
 ## *3.9 Were the individuals in question notified about the data collection?*
 ## *3.10 Did the individuals in question consent to the collection and use of their data?*
 ## *3.11 If consent was obtained, were the consenting individuals provided with a mechanism to revoke their consent in the future or for certain uses?*
-## *3.12 Has an analysis of the potential impact of the dataset and its use on data subjects? 
+## *3.12 Has an analysis of the potential impact of the dataset and its use on data subjects? *
 ## *3.13 Any other comments?*
 
 # 4. Preprocessing/cleaning/labeling
-## *4.1 Was any preprocessing/cleaning/labeling of the data done?
+## *4.1 Was any preprocessing/cleaning/labeling of the data done?*
 No preprocessing was done before and after scraping the data. It has been decided that the names of the reviewers are visible in the dataset since the reviewers are visible with their own name on the website airlinequality.com and had the choice to make the review anonymous if they wanted to. 
 
 No instances were deleted when they contained one or more missings. This is because they did enter information from other variables that may also be of interest to users of the dataset.
