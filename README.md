@@ -30,7 +30,7 @@ The dataset contains of 19 columns and 400 rows. Which means that information of
 
 ![image](https://user-images.githubusercontent.com/90376471/137156069-ae5aa05e-c847-4b10-bef2-cf91fe7cf529.png)
 
-Per review/reviewer the following information has been given:
+The dataset consists of raw data. Meaning that the data has been unproccesed. All the data has been scraped from the qualityairline.com and put into the dataset without without any data being removed or added to the data. The information that has been given in the dataset has been published in the same way on the website of airlinequality.com. Per review/reviewer the following information has been given:
 
 * Column 1. In the first column the overall rating of the reviewer on KLM has been given. This rating can contain a number between 1 and 10, with 1 being the lowest score and 10 being the highest score. There are no missing in this column, since this was a required part to complete the review. 
 * Column 2. In column 2 the name of the reviewer has been given. It must be said that every reviewer is given the opportunity to indicate that he or she does not want her own name on the review. There are no missing in this column since airlinequality.com changes the names of the people who do not want their name appeared on the review, to a fake name. 
@@ -38,28 +38,23 @@ Per review/reviewer the following information has been given:
 * Column 4. Column 4 gives the date of the day the reviews were published in the form of YYYY-MM-DD. The oldest review of the data set is from 08-06-2021. This means that all the data in the dataset has been published after that date. 
 * Column 5. In column 5 it is given if a reviewer has verified his trip or not. People who have verified their trip (by uploading their boarding pass/ticket) are given “Trip Verified”. Those who are not are labelled with “Not Verified”. 
 * Column 6. Column 6 gives the country in which the reviewer lives. There are no missings in this column since this question was a required part to complete the review.
-* Column 7. In column 7 it is given in which aircraft the review flew, if they knew or wanted to answer the question. The reviews who did not answered that question are labelled as missing. In total there are 186 missings in this column.
+* Column 7. In column 7 it is given in which aircraft the review flew, if they knew or wanted to answer the question. The reviews who did not answered that question are labelled as missing. 
 * Column 8. Column 8 gives the flight the reviews were on in this form “take-off location” to “landing location”. In this column there are also no missings since this was a required part of the review.
 * Column 9. In column 9 it is given which type of traveler the reviewer was on the flight he reviews. The 4 different answers that could be given were: Solo leisure, Business, Couple Leisure and Family Leisure. In this column there are also no missings since this was a required part of the review.
 * Column 10. Column 10 gives the seat type of the reviewer. The four possible answers the reviewer could give were: Business Class, Economy Class, First Class and Premium Economy. In this column there are also no missings since this was a required part of the review.
 * Column 11. In column 11 the month and year has been given of the flight of the reviewer. These answers are given in the form month-year. 
 * Column 12. In column 12 the answer of the rating for “Value for Money” has been given. The rating can contain of a number between 1 and 5, with 1 being the lowest score and 5 being the highest score. In this column there are also no missings since this was a required part of the review.
-* Column 13-18. In the columns 13-18 the ratings are given for respectively “Seat Comfort”, “Cabin Staff”, “Food & Beverages”, “Inflight entertainment”, “Wifi & Connectivity” and “Ground Service”. The rating can contain of a number between 1 and 5, with 1 being the lowest score and 5 being the highest score. Since these ratings were not a mandatory item of the review, there are missings for each of these columns. The total of missings per column are given below:
-
-    o   	Column 13: 31 missings
-    
-    o	Column 14: 31 missings
-    
-    o	Column 15: 72 missings
-    
-    o	Column 16: 177 missings
-    
-    o	Column 17: 290 missings
-    
-    o	Column 18:  23 missings
-    
+* Column 13-18. In the columns 13-18 the ratings are given for respectively “Seat Comfort”, “Cabin Staff”, “Food & Beverages”, “Inflight entertainment”, “Wifi & Connectivity” and “Ground Service”. The rating can contain of a number between 1 and 5, with 1 being the lowest score and 5 being the highest score. Since these ratings were not a mandatory item of the review, there are missings for each of these columns. The exact numbers of missing are given in the paragraph "Data inspection per entity".    
 * Column 19. In the last column it is given whether the review would recommend the airline, in this case KLM, or not. In case the reviewer would recommend the airline, a ‘yes’ has been given. In case the reviewer would not recommend the airline, a ‘no’ has been given. 
 
+The dataset consist partly of data from the reviewer. However, the data that is available does not contain confidential data from reviewers . The following things are known about each review:
+* Name, in case the reviewer gave premission. If the reviewer did not give permission to publish the name, a fake name appeared. It can not be seen whether the name of a review is their real name or their fake name. 
+* Country the live in. 
+* Flight the reviewer took but not the exact date.
+* Seat the reviewer took.
+* The type of traveller the reviewer was.
+
+With the information above reviewers could be identified when they used their own name. Identifing the reviewers can  be done  by the airline for which the review was written. They can check in their own database whether the name of the reviewer has actually taken the flight that he says he has taken in the review. If, according to the database, the reviewer did not take the flight indicated in the dataset, it can be concluded that the traveler did not use their own name. If the real name is not used, it is not possible to trace the traveler. The exact date of the flight is not given, so  the airline cannot see which flight the traveler has taken. 
 
 ## *Sampling, construct measurement and data structure*
 The dataset is a sample of a larger dataset. A total of 1,230 KLM reviews can be found on the airlinequality website and the dataset contains of 400 reviews. The dataset contains of the reviews that have been published between 08-06-2018 and 08-10-2021. In the table below it is given how much reviews are available in the dataset and how much passengers have travelled with KLM in that year. 
@@ -74,6 +69,7 @@ The dataset is a sample of a larger dataset. A total of 1,230 KLM reviews can be
 
 (Mazareanu, 2021)
 
+In recent years, only a very small proportion of KLM travelers have left a review at airlinequality(e.g. in 2019 0.00075%). Therefore the dataset has been analysed and in the tables below it is given whether a certain subgroup   is represented in the dataset. 
 
 In the following table it has been shown whether the dataset is representative geographically for all travelers of KLM. 
 
@@ -112,6 +108,11 @@ The dataset mainly represents the Solo Leisure travellers and the Couple Leisure
 
 The dataset contains of namely reviewers who travelled in Economy Class and Business Class. The dataset has almost no reviews of travellers Premium Economy and First Class. When information is needed for Premium Economy and First Class travelers, this dataset is not suitable.
 
+
+For the data set that has now been given, splitting is not yet recommended, since in the data set some subgroups are only small represented and when the data set is split, this group will only become smaller. The code that has been given for scraping the data can be used again to scrape new reviews. if, for example, new data is added every month from new reviews, it is recommended to split the dataset into a testing and a training dataset. In that way new models for analysing data could be tested easiy with the testing data and then could be applied for the training data. 
+
+Since the data in the dataset is scraped from airlinequality.com, an extension of the dataset depends on whether: 1) The customers keep handing in reviews on this website and 2) Whether this website will continue to keep the reviews available online. But because it is expected that the reviews are largely intended for other travelers, the second point will certainly not endanger the development of the dataset. Since the whole dataset is derived from the external source, there is no dataset without the external source. This external source does not charge any fees or licenses to scrape the data on the website. 
+
 ## *Data inspection per entity*
 Most columns do not have missings, since these variables were mandatory questions to fill in the review. For the variables that contain missings, the number of missings are given below:
 * Type of aircraft &#8594; 214 missings
@@ -125,6 +126,23 @@ Most columns do not have missings, since these variables were mandatory question
 Reviewers could fill in the type of aircraft if they knew the type of aircraft. When people did not fill in the type of aircraft, is has been registered as a missing.
 For the rating on several points only the overall rating and the rating on “Value for Money”  were mandatory. For the other ratings, reviewers could choose whether they rated the variable. When people did not review the variable, the variable is shown as a missing. 
 
+For all entitie some statistics are shown below. This allows potential users of the dataset to find out whether the dataset is useful for them and to give a first impression of the results of the dataset.
+
+Mean of several ratings
+| *Rating of..* | *mean* | *Lowest score* | *Highest score* |
+| ------------- | ------ | -------------- | --------------- | 
+| Overall  |              4.8/10              |  1 | 10 |
+| Value for money rating  |              2.7/5             |  1 | 5|
+| Seat Comfort  |              3.1/5              |  1 | 5 |
+| Cabin Staff Service  |              3.4/5              |  1          | 5|
+| Food & Beverages | 3.0/5| 1 | 5| 
+| Inflight entertainment | 3/5 | 1|5| 
+| Wifi connectivity | 2/5 | 1 | 5|
+| Ground Service | 3/5 | 1 | 5|
+
+
+
+
 # 1.3 Collection process
 
 ## *Technical extraction plan*
@@ -135,10 +153,12 @@ In order to scrape www.airlinequality.com, there are a few steps that a potentia
 The data set, as stated above, is scraped based on the COVID-19 period. Therefore, June 1, 2018 was used as the starting date. The data set is finalized on 2021-10-12 20:57. Therefore, no reviews that are submitted after this data are visible in the dataset. The final data set is stored in the (repository) [https://github.com/dogabayraktar/COVID19-Infection-on-Airline-Reviews/tree/main/data]  
 
 ## *Legal and ethical concerns*
-There are no legal and ethical concerns when scraping this data. The people that are submitting their reviews on this website know that their information is visible. Furthermore, the collected data is, besides the name where they can indicate whether they want to use their own name, fully anonymous. 
+There are no legal and ethical concerns when scraping this data. The people that are submitting their reviews on this website know that their information is visible. Furthermore, the collected data is, besides the name of which they can indicate whether they want to use their own name, fully anonymous. 
 
 # 1.4 Preprocessing
+No preprocessing was done before and after scraping the data. It has been decided that the names of the reviewers are visible in the dataset since the reviewers are visible with their own name on the website airlinequality.com and had the choice to make the review anonymous if they wanted to. 
 
+No instances were deleted when they contained one or more missings. This is because they did enter information from other variables that may also be of interest to users of the dataset.
 
 # 1.5 Users
 ## *Users of the data learn about tasks the data set could be used for*
@@ -146,8 +166,7 @@ The dataset has not yet been used by other people or researchers besides the pro
 
 The dataset obtained after scraping the website airlinequality.com is mainly made for airlines. As already described in the motivation, it is very valuable for airlines to observe reviews to enhance the customer experience of a customer. This dataset is valuable because it saves valuable time because all information is contained in one data file. This allows marketers to easily create segments and find out what the wishes and needs of these segments are.
 
-The dataset should not be used to contact the travellers in the dataset for commercial or other reasons. 
-
+The dataset should not be used to contact the travellers in the dataset, in case they used their own name on the review, for commercial or other reasons. 
 
 ## About
 
