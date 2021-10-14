@@ -47,6 +47,14 @@ The dataset consists of raw data. Meaning that the data has been unproccesed. Al
 * Column 13-18. In the columns 13-18 the ratings are given for respectively “Seat Comfort”, “Cabin Staff”, “Food & Beverages”, “Inflight entertainment”, “Wifi & Connectivity” and “Ground Service”. The rating can contain of a number between 1 and 5, with 1 being the lowest score and 5 being the highest score. Since these ratings were not a mandatory item of the review, there are missings for each of these columns. The exact numbers of missing are given in the paragraph "Data inspection per entity".    
 * Column 19. In the last column it is given whether the review would recommend the airline, in this case KLM, or not. In case the reviewer would recommend the airline, a ‘yes’ has been given. In case the reviewer would not recommend the airline, a ‘no’ has been given. 
 
+The dataset consist partly of data from the reviewer. However, the data that is available does not contain confidential data from reviewers . The following things are known about each review:
+* Name, in case the reviewer gave premission. If the reviewer did not give permission to publish the name, a fake name appeared. It can not be seen whether the name of a review is their real name or their fake name. 
+* Country the live in. 
+* Flight the reviewer took but not the exact date.
+* Seat the reviewer took.
+* The type of traveller the reviewer was.
+
+With the information above reviewers could be identified when they used their own name. Identifing the reviewers can  be done  by the airline for which the review was written. They can check in their own database whether the name of the reviewer has actually taken the flight that he says he has taken in the review. If, according to the database, the reviewer did not take the flight indicated in the dataset, it can be concluded that the traveler did not use their own name. If the real name is not used, it is not possible to trace the traveler. The exact date of the flight is not given, so  the airline cannot see which flight the traveler has taken. 
 
 ## *Sampling, construct measurement and data structure*
 The dataset is a sample of a larger dataset. A total of 1,230 KLM reviews can be found on the airlinequality website and the dataset contains of 400 reviews. The dataset contains of the reviews that have been published between 08-06-2018 and 08-10-2021. In the table below it is given how much reviews are available in the dataset and how much passengers have travelled with KLM in that year. 
@@ -118,16 +126,21 @@ Most columns do not have missings, since these variables were mandatory question
 Reviewers could fill in the type of aircraft if they knew the type of aircraft. When people did not fill in the type of aircraft, is has been registered as a missing.
 For the rating on several points only the overall rating and the rating on “Value for Money”  were mandatory. For the other ratings, reviewers could choose whether they rated the variable. When people did not review the variable, the variable is shown as a missing. 
 
-In the following 
+For all entitie some statistics are shown below. This allows potential users of the dataset to find out whether the dataset is useful for them and to give a first impression of the results of the dataset.
 
-The dataset consist partly of data from the reviewer. However, the data that is available does not contain data from reviewers confidentional. The following this are known about each review:
-* Name, in case the reviewer gave premission. If the reviewer did not give permission to publish the name, a fake name appeared. It can not be seen whether the name of a review is their real name or their fake name. 
-* Country the live in. 
-* Flight the reviewer took but not the exact date.
-* Seat the reviewer took.
-* The type of traveller the reviewer was.
+Mean of several ratings
+| *Rating of..* | *mean* | *Lowest score* | *Highest score* |
+| ------------- | ------ | -------------- | --------------- | 
+| Overall  |              4.8/10              |  1 | 10 |
+| Value for money rating  |              2.7/5             |  1 | 5|
+| Seat Comfort  |              3.1/5              |  1 | 5 |
+| Cabin Staff Service  |              3.4/5              |  1          | 5|
+| Food & Beverages | 3.0/5| 1 | 5| 
+| Inflight entertainment | 3/5 | 1|5| 
+| Wifi connectivity | 2/5 | 1 | 5|
+| Ground Service | 3/5 | 1 | 5|
 
-With the information above reviewers could be identified when they used their own name. Identifing the reviewers can  be done  by the airline for which the review was written. They can check in their own database whether the name of the reviewer has actually taken the flight that he says he has taken in the review. If, according to the database, the reviewer did not take the flight indicated in the dataset, it can be concluded that the traveler did not use their own name. If the real name is not used, it is not possible to trace the traveler. The exact date of the flight is not given, so  the airline cannot see which flight the traveler has taken. 
+
 
 
 # 1.3 Collection process
