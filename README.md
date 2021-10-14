@@ -4,7 +4,7 @@
 # 1. Motivation
 
 ## *1.1 For what purpose was the dataset created? Was there a specific task in mind? Was there a specific gap that needed to be filled?*
-According to research of the European.ce (2020) 1,034 million Europeans travelled by plane. This is an increase of 3.8% compared with 2018. Corona has shut down the aircraft industry for a while, but the industry is currently getting back on track.  Because this market has so many customers, there are also many suppliers. It is estimated that there are around 5.000-5.500 airlines across the world, of which there are 700-800 commercial airlines operating scheduled flights globally.
+According to research of European.ce (2020) 1,034 million Europeans travelled by plane in 2019. This is an increase of 3.8% compared with 2018. Corona has shut down the aircraft industry for a while, but the industry is currently getting back on track.  Because this market has so many customers, there are also many suppliers. It is estimated that there are around 5.000-5.500 airlines across the world, of which there are 700-800 commercial airlines operating scheduled flights globally.
 According to research airlines have to focus on customer satisfaction and customer experience to differentiate itself from other competitors in this market (Ban & Kim, 2019). Studies have shown that analysing online review data has several advantages for the customers’ satisfaction and the way the customers experience the airlines. These advantages are:
 * It is an inexpensive way to gather information as reviews are often already available on websites or apps (Liau & Tan, 2014).  
 * Reviews from customers are considered as trustworthy (Brochado et. Al, 2019).
