@@ -151,7 +151,7 @@ For the data set that has now been given, splitting is not yet recommended, sinc
 ## *2.9 Are there any errors, sources of noise, or redundancies in the dataset?*
 There are no errors, sources of noise or redundancies in the dataset. 
 
-## * 2.10 Is the dataset self-contained, or does it link to or otherwise rely on external resources (e.g. websites, tweets, other datasets)? 
+## *2.10 Is the dataset self-contained, or does it link to or otherwise rely on external resources (e.g. websites, tweets, other datasets)?*
 The dataset is rely on the external resource www.airlinequality.com and especially on the [KLM reviews page](https://www.airlinequality.com/airline-reviews/klm-royal-dutch-airlines)
 Since the data in the dataset is scraped from airlinequality.com, an extension of the dataset depends on whether: 1) The customers keep handing in reviews on this website and 2) Whether this website will continue to keep the reviews available online. But because it is expected that the reviews are largely intended for other travelers, the second point will certainly not endanger the development of the dataset. Since the whole dataset is derived from the external source, there is no dataset without the external source. This external source does not charge any fees or licenses to scrape the data on the website. 
 
