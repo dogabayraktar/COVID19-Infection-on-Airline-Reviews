@@ -220,6 +220,7 @@ No instances were deleted when they contained one or more missings. This is beca
 The dataset has not yet been used by other people or researchers besides the projectteam that has scraped the information of the dataset.
 
 ## *5.2 Is there a repository that links to any or all papers or systems that use the dataset?* 
+Since the dataset has not yet been used, there are no papers or systems that use the dataset. 
 
 ## *5.3 What (other) tasks could the dataset be used for?*
 The dataset obtained after scraping the website airlinequality.com is mainly made for KLM. As already described in the motivation, it is very valuable for airlines to observe reviews to enhance the customer experience of a customer. This dataset is valuable because it saves valuable time because all information is contained in one data file. This allows marketers to easily create segments and find out what the wishes and needs of these segments are.
