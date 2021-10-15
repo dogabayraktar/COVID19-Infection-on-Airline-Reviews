@@ -196,18 +196,45 @@ No, no data is included that may be considered sensitive in any way.
 
 # 3. Collection Process
 ## *3.1 How was the data associated with each instance acquired?*
+The data that is collected is reported by subjects. Subjects leave a review about a specific airline, in this case KLM, on www.airlinequality.com. The verification of the data happens via the verification of the flight. Subjects need to fill in their flight details in order to verify that they actually flew with the airline that they are reviewing. If their flight is verificated, the review will be verified. In our dataset our also flights that are not verified. However, these reviews can be filtered out when necessary while analyzing the dataset.
+
 ## *3.2 What mechanisms or procedures were used to collect the data*
+For the collection of this data, BeautifulSoup is used instead of Selenium because there is no need to scroll through the pages. Furthermore, the Java elements that are present on the website are not necessary for scraping so therefore BeautifulSoup is used. 
+
+In order to scrape www.airlinequality.com, there are a few steps that a potential researcher needs to do manually. First, select the airline that is of interest. Airinequality provides a list of airlines from A to Z where you can select the airline or airlines that you are interested in. Second, select the period that should be investigated. Based on this period, the researcher needs to determine the number of pages that covers this period and this number of pages should be implemented in the code. 
+
 ## *3.3 If the dataset is a sample from a larger set, what was the sampling strategy?*
+As far as www.airlinequality.com, we scraped every possible review for KLM for our dataset. Therefore, we did not use a sampling strategy. 
+
 ## *3.4 Who was involved in the data collection process and how were they compensated?*
+The data is entirely collected by our research group from Tilburg University. Therefore, there is no need for compensation.
+
 ## *3.5 Over what timeframe was the data collected?*
+The dataset contains observations from the 21st of March 2013 until the 12th of October 2021 20:57. 
+
 ## *3.6 Were any ethical review processes conducted?*
+No ethical review processes were conducted.
+
 ## *3.7 Does the dataset relate to people?*
+The dataset relates to people, since the reviews of different people are collected. 
+
 ## *3.8 Did you collect the data from the individuals in question directly, or obtain it via third parties or other sources?*
+The collected data is obtained from www.airlinequality.com which can be best described as third party. This website collected the data from the reviewers.
+
 ## *3.9 Were the individuals in question notified about the data collection?*
+Individuals were not notified about the data collection.
+
 ## *3.10 Did the individuals in question consent to the collection and use of their data?*
+Individuals did not explicitely consent to the collection of the data. However, they allowed their review to be shown on www.airlinequality.com which makes it visible to anyone that it interested in this kind of data.
+
 ## *3.11 If consent was obtained, were the consenting individuals provided with a mechanism to revoke their consent in the future or for certain uses?*
-## *3.12 Has an analysis of the potential impact of the dataset and its use on data subjects? *
+Not applicable.
+
+## *3.12 Has an analysis of the potential impact of the dataset and its use on data subjects?*
+Data subjects are not negatively affected by analysis of this dataset. Instead, it might even be beneficial for data subjects since airlines can determine with this data which improvements they need to make in order for all customers to be satisfied.
+
 ## *3.13 Any other comments?*
+Not applicable.
 
 # 4. Preprocessing/cleaning/labeling
 ## *4.1 Was any preprocessing/cleaning/labeling of the data done?*
