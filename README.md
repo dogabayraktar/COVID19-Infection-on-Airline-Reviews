@@ -4,7 +4,7 @@
 # 1. Motivation
 
 ## *1.1 For what purpose was the dataset created? Was there a specific task in mind? Was there a specific gap that needed to be filled?*
-According to research of European.ce (2020) 1,034 million Europeans travelled by plane in 2019. This is an increase of 3.8% compared with 2018. Corona has shut down the aircraft industry for a while, but the industry is currently getting back on track.  Because this market has so many customers, there are also many suppliers. It is estimated that there are around 5.000-5.500 airlines across the world, of which there are 700-800 commercial airlines operating scheduled flights globally.
+According to research of Eurostat (2020) 1,034 million Europeans travelled by plane in 2019. This is an increase of 3.8% compared with 2018. Corona has shut down the aircraft industry for a while, but the industry is currently getting back on track.  Because this market has so many customers, there are also many suppliers. It is estimated that there are around 5.000-5.500 airlines across the world, of which there are 700-800 commercial airlines operating scheduled flights globally.
 According to research airlines have to focus on customer satisfaction and customer experience to differentiate itself from other competitors in this market (Ban & Kim, 2019). Studies have shown that analysing online review data has several advantages for the customers’ satisfaction and the way the customers experience the airlines. These advantages are:
 * It is an inexpensive way to gather information as reviews are often already available on websites or apps (Liau & Tan, 2014).  
 * Reviews from customers are considered as trustworthy (Brochado et. Al, 2019).
@@ -253,3 +253,17 @@ This research is carried out in implementation of the course Online Data Collect
 - [Demi de Groot](https://github.com/Demidegroot) d.degroot@tilburguniversity.edu
 - [Ellen van Berlo](https://github.com/EllenB1) e.d.vanberlo@tilburguniversity.edu
 - [Sam Messaoudi](https://github.com/SamMes98) s.t.l.messaoudi@tilburguniversity.edu
+
+## Sources
+Ban, H.-J., & Kim, H.-S. (2019), Understanding Customer Experience and Satisfaction through Airline Passengers’ Online Review. Sustainability, 11(15), 4066. doi:10.3390/su11154066
+
+Brochado, A., Rita, P., Oliveira, C. and Oliveira, F. (2019), "Airline passengers’ perceptions of service quality: themes in online reviews", International Journal of Contemporary Hospitality Management, Vol. 31 No. 2, pp. 855-873. https://doi.org/10.1108/IJCHM-09-2017-0572
+
+Eurostat. (2020 November), Air transport statistics. accessed at October 2021, from https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Air_transport_statistics#Progressive_growth_in_air_transport_of_passengers_in_the_course_of_2019
+
+Mazareanu , E. (2021), Annual number of passengers carried by KLM Royal Dutch Airlines from 2014 to 2020, accessed at Octboer 2021, from https://www.statista.com/statistics/734736/annual-number-of-passengers-carried-by-klm-royal-dutch-airlines/ 
+
+Yee Liau, B. and Pei Tan, P. (2014), "Gaining customer knowledge in low cost airlines through text mining", Industrial Management & Data Systems, Vol. 114 No. 9, pp. 1344-1359. https://doi.org/10.1108/IMDS-07-2014-0225
+
+
+
