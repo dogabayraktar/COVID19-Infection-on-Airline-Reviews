@@ -204,7 +204,7 @@ For the collection of this data, BeautifulSoup is used instead of Selenium becau
 In order to scrape www.airlinequality.com, there are a few steps that a potential researcher needs to do manually. First, select the airline that is of interest. Airinequality provides a list of airlines from A to Z where you can select the airline or airlines that you are interested in. Second, select the period that should be investigated. Based on this period, the researcher needs to determine the number of pages that covers this period and this number of pages should be implemented in the code. 
 
 ## *3.3 If the dataset is a sample from a larger set, what was the sampling strategy?*
-As far as www.airlinequality.com, we scraped every possible review for KLM for our dataset. Therefore, we did not use a sampling strategy. 
+As far as www.airlinequality.com is concerned, we scraped every possible review for KLM for our dataset. Therefore, we did not use a sampling strategy. 
 
 ## *3.4 Who was involved in the data collection process and how were they compensated?*
 The data is entirely collected by our research group from Tilburg University. Therefore, there is no need for compensation.
