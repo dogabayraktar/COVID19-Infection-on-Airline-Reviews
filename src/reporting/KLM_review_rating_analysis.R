@@ -10,8 +10,8 @@ View(KLM_data)
 # 1230 rows mean we found 1230 reviews
 glimpse(KLM_data)
 
-# Unique writers, 1092 rows which mean 1092 unique writers
-count(KLM_data, KLM_data$`Review Writer`)
+# Unique writers, 1102 rows which mean 1102 unique writers
+unique_writers <- count(KLM_data, KLM_data$`Review Writer`)
 
 # Date flown
 flown_2021 <- nrow(subset(KLM_data, str_detect(KLM_data$`Date Flown`, '2021') == TRUE))
@@ -27,8 +27,36 @@ flown_NA <- nrow(KLM_data) - (flown_2021+flown_2020+flown_2019+flown_2018+flown_
 country <- KLM_data %>% 
   count(Country, sort = TRUE)
 
-country_frequency <- country %>% mutate(country_percentage = n/sum(country$n))
+country_frequency <- country %>% mutate(country_percentage = n/sum(n))
 country_frequency
+
+# Type of traveler frequency
+tot <- KLM_data %>% 
+  count(`Type Of Traveller`, sort = TRUE)
+
+tot_frequency <- tot %>% mutate(tot_percentage = n/sum(n))
+tot_frequency
+
+# Seat type frequency
+seat_type <- KLM_data %>% 
+  count(`Seat type`, sort = TRUE)
+
+seat_type_frequency <- seat_type %>% mutate(seat_type_percentage = n/sum(n))
+seat_type_frequency
+
+# missing values
+sum(is.na(KLM_data$Aircraft))
+sum(is.na(KLM_data$`Seat Comfort (rating out of five)`))
+sum(is.na(KLM_data$`Cabin Staff Service (rating out of five)`))
+sum(is.na(KLM_data$`Food & Beverages (rating out of five)`))
+sum(is.na(KLM_data$`inflight_entertainment (rating out of five)`))
+sum(is.na(KLM_data$`Wifi & Connectivity (rating out of five)`))
+sum(is.na(KLM_data$Route))
+sum(is.na(KLM_data$`Type Of Traveller`))
+sum(is.na(KLM_data$`Date Flown`))
+
+
+### Example examing reviews before and after COVID-19 for KLM ###
 
 # subsetting the data pre_covid (Date Flown = 2018|2020) and post covid (Date Flown is 2020|2021)
 pre_covid <- subset(KLM_data, str_detect(KLM_data$`Date Flown`, '2018|2019') == TRUE)
