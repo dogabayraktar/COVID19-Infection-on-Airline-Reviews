@@ -38,12 +38,12 @@ Each instance of the dataset represents a review of a traveller of KLM. The inst
 figure 2.1.1 example of review
 
 ## *2.2 How many instances are there in total?*
-In total the dataset consist of 1.230 instances, in other words, 1,230 reviews have been processed in the dataset. This does not mean that all those reviews were written by 1.230 different passengers. According to the dataset 1,109 unique writers wrote the reviews. It must been said that, before handing in the review, the traveller can choose that a screen name is visible instead of their own name. As a result, it cannot be guaranteed that the dataset actually contains 1,109 unique writers since writer could write different reviews but all with another screen name.
+In total the dataset consist of 1.230 instances, in other words, 1,230 reviews have been processed in the dataset. This does not mean that all those reviews were written by 1.230 different passengers. According to the dataset 1,102 unique writers wrote the reviews. It must been said that, before handing in the review, the traveller can choose that a screen name is visible instead of their own name. As a result, it cannot be guaranteed that the dataset actually contains 1,102 unique writers since writer could write different reviews but all with another screen name.
 
 | *reviews* | *1,230* |
 | ----------|---------|
 
-|*unique writers* | *1,109* |
+|*unique writers* | *1,102* |
 |-----------------|--------|
 
 ## *2.3 Does the dataset contain all possible instances or is it a sample of instances from a larger set?*
@@ -51,15 +51,15 @@ The dataset consist of all the reviews that the webite airlinequality.com has of
 
 | *Year* | *Reviews of flight in dataset* | *Total passengers of KLM* |
 | ----- | ---------------------------- | ----------------------- |
-| Before april 2015 | 344 | - |
-| april 2015 -2016| 126 | - |
+| Before 2015 | 344 | - |
+| 2015  | 126 | - |
 | 2016  | 155| 30,399,000 |
 |2017   |  150 | 32,689,000 |
 | 2018  |              154              |  34,170,000 |
 | 2019  |              188             |  25,092,000 |
 | 2020  |              70              |  11,231,000 |
 | 2021  |              43              |  ?          |
-| *Total* | 400| - |
+| *Total* | 1230| - |
 
 (Mazareanu, 2021)
 
@@ -86,7 +86,7 @@ In the dataset there are 78 different countries mentioned. In 2019, KLM flew to 
 | Solo Leisure	|353	|28.7% | 
 | Couple Leisure|	225	|18.3%|
 | Business	|178	|14.5% |
-| Family Leisure|	131	|1.7%|
+| Family Leisure|	131	|10.7%|
 | Missings | 343 | 27.9%
 | *Total*	|1,230	| |
 
@@ -127,26 +127,26 @@ The dataset consists of raw data. Meaning that the data has been unproccesed. Al
 There are several instances that contain missings in the dataset. There are several reasons for this:
 1) It appears that until April 2015 the traveller's route, traveler type and date the reviewer flew were not asked when a reviewer wrote a review. No data is available untill this date. After April 2015 no missings were found in these variables.
 2) Reviewers could fill in the type of aircraft if they knew the type of aircraft. When people did not fill in the type of aircraft, is has been registered as a missing.
-3) For the rating on several points only the overall rating and the rating on “Value for Money”  were mandatory. For the other ratings, reviewers could choose whether they rated the variable or not . When people did not review the variable, the variable is shown as a missing. 
+3) For the rating on several points only the overall rating and the rating on “Value for Money”  were mandatory. For the other ratings, reviewers could choose whether they rated the variable or not. When people did not review the variable, the variable is shown as a missing. 
 
 For the variables that contain missings, the number of missings are given below:
-* Type of aircraft &#8594; 214 missings
-* Rating on Seat Comfort &#8594; 31 missings
-* Rating on Cabin Staff Service &#8594; 31 missings
-* Rating on Food & Beverages &#8594; 72 missings
-* Rating on Inflight Entertainment &#8594; 177 missings
-* Rating of Wifi & Connectivity &#8594; 290 missings
-* Rating of Ground Service &#8594; 23 misssings
-* Route the drive flew &#8594; 343 missings
+* Type of aircraft &#8594; 715 missings
+* Rating on Seat Comfort &#8594; 36 missings
+* Rating on Cabin Staff Service &#8594; 36 missings
+* Rating on Food & Beverages &#8594; 118 missings
+* Rating on Inflight Entertainment &#8594; 366 missings
+* Rating of Wifi & Connectivity &#8594; 1029 missings
+* Rating of Ground Service &#8594; 368 misssings
+* Route the plain flew &#8594; 343 missings
 * Type of traveller &#8594; 343 missings
-* Date the flight &#8594; 344 missings
+* Date of the flight &#8594; 344 missings
 
 One traveler, has entered the route and the type of traveler, but not the day that he flew. How this is possible, is not clear. 
 
 ## *2.7 Are relationships between individual instances made explicit?*
 
 ## *2.8 Are there recommended data splits (e.g. training,development/validation, testing)?*
-For the data set that has now been given, splitting is not yet recommended, since in the data set some subgroups are only small represented and when the data set is split, this group will only become smaller. The code that has been given for scraping the data can be used again to scrape new reviews. if, for example, new data is added every year from new reviews, it is recommended to split the dataset into a testing and a training dataset. In that way new models for analysing data could be tested easiy with the testing data and then could be applied for the training data. 
+For the data set that has now been given, splitting is not yet recommended, since in the data set some subgroups only have little representation and when the data set is split, this group will only become smaller. The code that has been given for scraping the data can be used again to scrape new reviews. if, for example, new data is added every year from new reviews, it is recommended to split the dataset into a testing and a training dataset. In that way new models for analysing data could be tested easiy with the testing data and then could be applied for the training data. 
 
 ## *2.9 Are there any errors, sources of noise, or redundancies in the dataset?*
 There are no errors, sources of noise or redundancies in the dataset. 
